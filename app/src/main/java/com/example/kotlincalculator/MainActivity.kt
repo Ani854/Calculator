@@ -11,7 +11,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        btn00.setOnClickListener { appendOnClick(true, "00") }
         btn0.setOnClickListener { appendOnClick(true, "0") }
         btn1.setOnClickListener { appendOnClick(true, "1") }
         btn2.setOnClickListener { appendOnClick(true, "2") }
